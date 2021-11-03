@@ -15,3 +15,5 @@ const stocksSchema = new Schema({
     },
   ],
 });
+
+module.exports = stocksSchema;
