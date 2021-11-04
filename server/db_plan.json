@@ -1,0 +1,13 @@
+{
+    "stocks-collection":[
+        {"HSN": "SOMEHSN", "Amount": 65, "Amount Sold": 897, "Amount Bought": 984}
+    ],
+    "bills-collection": [
+        {"Type": "Purchase/Sell", "Total Amount": 7894,"Date": "Some Date" ,"GSTIN": "SOME GSTIN" ,"Stocks": 
+            [
+                {"HSN": "SOMEHSN", "Amount": 65, "Price": 7894},
+                {"Some Other Stock": "Some other HSN", "Amount": 68, "Price": 987}
+            ]
+        }
+    ]
+}

@@ -2,18 +2,11 @@ const { Schema } = require("mongoose");
 
 const stocksSchema = new Schema({
   userId: String,
-  stocks: [
-    {
-      name: String,
-      amount: Number,
-      unit: String,
-      price: Number,
-      date: Date,
-      hsn: Number,
-      seller: String,
-      buyer: String,
-    },
-  ],
+  HSN: Number,
+  amount: Number,
+  amount_sold: Number,
+  amount_bought: Number,
+  GST: Number,
 });
 
 module.exports = stocksSchema;
